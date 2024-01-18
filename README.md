@@ -25,10 +25,10 @@ https://imgur.com/a/i8JWet2
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Created Virtual Machines in Azure.
+- Step 2: Log in to Virtual Machine (VM1 with Windows 10 Pro setup) with remote desktop
+- Step 3: Configure VM2 Firewall Protocols to disrupt inbound ICMP
+- Step 4: Inspect various protocols with RDP (Remote Desktop Protocol) on Virtual Machine 1
 
 <h2>Actions and Observations</h2>
 
