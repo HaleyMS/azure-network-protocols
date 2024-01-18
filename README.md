@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/vl0ei0K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-For the first steps to this project I created two seperate virtual machines in Azure. One consisted of set up of Windows 10 and the other with Ubuntu Linix. After set up I was able to use remote desktop to log onto what was labeled as VM1 (Virtual Machine 1 with Windows 10 setup).
+For the first steps to this project I created two seperate virtual machines in Azure. One with a of set up of Windows 10 Pro and the other with Ubuntu Linix. Once the machines were set up, I was able to obtain the public IPv4 Address use remote desktop to log onto to VM1 (Virtual Machine 1 with Windows 10 setup).
 </p>
 <br />
 
