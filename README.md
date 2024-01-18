@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, I observed various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+For this project, I observed various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
 <h2>Video Demonstration</h2>
@@ -49,27 +49,27 @@ Once inside VM1 I was able to set up a perpetual ICMP ping to VM2. After establi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5UXnEd0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside VM1 I was able to observe various potocols ssh shown above.
+Inside VM1 I was able to observe ssh protocol shown above.
+</p>
+<br />
+<img src="https://i.imgur.com/OyHE9JL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Inside VM1 I was able to observe dhcp protocol shown above.
 </p>
 <br />
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside VM1 I was able to observe various potocols dhcp shown above.
+Inside VM1 I was able to observe dns protocol shown above.
 </p>
 <br />
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside VM1 I was able to observe various potocols dns shown above.
-</p>
-<br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Inside VM1 I was able to observe various potocols rdp shown above.
+Inside VM1 I was able to observe rdp protocol shown above.
 </p>
 <br />
