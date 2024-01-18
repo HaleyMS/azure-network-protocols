@@ -44,7 +44,7 @@ For the first steps to this project I created two seperate virtual machines in A
 <img src="https://i.imgur.com/uS67oUU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once inside VM1 I was able to set up a perpetual ICMP ping to VM2. After establishing the ICMP ping to VM2 I went to VM2's NSG and added a new rule that would deny any ICMP pings from anywhere. Checking back in to VM1 I noticed the ping had been disrupted by the firewall. With a sucessful denial I went back to VM2 to allow ICMP to come through. I was able to reestablish a connection from VM1 to VM2. 
 </p>
 <br />
 
@@ -52,6 +52,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Inside VM1 I was able to observe various potocols ssh shown above.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Inside VM1 I was able to observe various potocols dhcp shown above.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Inside VM1 I was able to observe various potocols dns shown above.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Inside VM1 I was able to observe various potocols rdp shown above.
 </p>
 <br />
