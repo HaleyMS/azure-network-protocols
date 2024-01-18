@@ -28,7 +28,7 @@ https://imgur.com/a/i8JWet2
 - Step 1: Created Virtual Machines in Azure.
 - Step 2: Log in to Virtual Machine (VM1 with Windows 10 Pro setup) with remote desktop
 - Step 3: Configure VM2 Firewall Protocols to disrupt inbound ICMP
-- Step 4: Inspect various protocols with RDP (Remote Desktop Protocol) on Virtual Machine 1
+- Step 4: Inspect various protocols through Wireshare on Virtual Machine 1
 
 <h2>Actions and Observations</h2>
 
@@ -61,15 +61,15 @@ Inside VM1 I was able to observe ssh protocol shown above.
 Inside VM1 I was able to observe dhcp protocol shown above.
 </p>
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eXWUKd0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Inside VM1 I was able to observe dns protocol shown above.
 </p>
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aJ0Oq5T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside VM1 I was able to observe rdp protocol shown above.
+Inside VM1 I was able to observe remote desktop protocol shown above.
 </p>
 <br />
