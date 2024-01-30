@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-For this project, I observed various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+For this project, I observed various network traffic to and from Azure Virtual Machines with Wireshark as well as experimenting with Network Security Groups. <br />
 
 
 <h2>Video Demonstration</h2>
@@ -44,7 +44,7 @@ For the first steps to this project I created two seperate virtual machines in A
 <img src="https://i.imgur.com/uS67oUU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once inside VM1 I was able to set up a perpetual ICMP ping to VM2. After establishing the ICMP ping to VM2 I went to VM2's NSG and added a new rule that would deny any ICMP pings from anywhere. Checking back in to VM1 I noticed the ping had been disrupted by the firewall. With a sucessful denial I went back to VM2 to allow ICMP to come through. I was able to reestablish a connection from VM1 to VM2. 
+Once inside VM1 I was able to set up a perpetual ICMP (Internet Control Message Protocol) ping to VM2. After establishing the ICMP ping to VM2 I went to VM2's NSG and added a new rule that would deny any ICMP pings from anywhere. Checking back in to VM1 I noticed the ping had been disrupted by the firewall. With a sucessful denial I went back to VM2 to allow ICMP to come through. I was able to reestablish a connection from VM1 to VM2. 
 </p>
 <br />
 
@@ -52,24 +52,24 @@ Once inside VM1 I was able to set up a perpetual ICMP ping to VM2. After establi
 <img src="https://i.imgur.com/5UXnEd0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside VM1 I was able to observe ssh protocol shown above.
+Inside VM1 I was able to observe SSH (Secure Shell) protocol shown above.
 </p>
 <br />
 <img src="https://i.imgur.com/OyHE9JL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside VM1 I was able to observe dhcp protocol shown above.
+Inside VM1 I was able to observe DHCP (Dynamic Host Configuration Protocol) protocol shown above.
 </p>
 <br />
 <img src="https://i.imgur.com/eXWUKd0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside VM1 I was able to observe dns protocol shown above.
+Inside VM1 I was able to observe DNS (Domain Name System) protocol shown above.
 </p>
 <br />
 <img src="https://i.imgur.com/aJ0Oq5T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside VM1 I was able to observe remote desktop protocol shown above.
+Inside VM1 I was able to observe Remote Desktop protocol shown above using TCP.PORT==3389.
 </p>
 <br />
